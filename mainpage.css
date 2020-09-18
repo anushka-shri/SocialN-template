@@ -1,0 +1,324 @@
+body{
+background: rgb(207, 187, 187) !important;
+}
+
+
+
+/* Navbar */
+
+
+
+.subnav-hero-section {
+ top:0;
+ width:100%;
+  text-align: center;
+  background-image: url("3.jpg");
+  background-size: cover;
+  position: absolute;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+}
+
+.subnav-hero-section .subnav-hero-headline {
+  color: #fefefe;
+}
+
+.subnav-hero-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+}
+
+.subnav-hero-subnav li {
+  float: none;
+  display: inline-block;
+}
+
+.subnav-hero-subnav li a {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: #fefefe;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: all 0.35s ease-in-out;
+}
+
+
+
+.subnav-hero-subnav li a:hover {
+    border: 0.5px solid rgb(106, 236, 245);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+
+
+/* Navbar */
+
+
+/*jumbotron */
+.jumbotron{
+   
+    background: black !important;
+    color:white;
+    padding:3rem !important;
+    height:auto;
+    margin-left:2vw;
+    margin-right:35vw;
+    margin-top:60vh;
+    width:60vw;
+}
+
+.display-4{
+margin:0;
+padding:0;
+font-size: 2rem !important;
+}
+
+/*jumbotron */
+
+
+/*YoumayKnow*/
+
+
+.people-you-might-know {
+width:28vw;
+margin-left: 68vw;
+margin-right:5vw;
+ top:59%;
+  background-color: #fefefe;
+  padding: 1rem 0 0;
+  border: 1px solid #cacaca;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  position: absolute;
+}
+
+.people-you-might-know .add-people-header {
+  padding: 0 0.9375rem;
+  border-bottom: 0.0625rem solid #cacaca;
+}
+
+.people-you-might-know .add-people-header .header-title {
+  font-weight: bold;
+}
+
+.people-you-might-know .add-people-section {
+  margin: 1rem 0 0;
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid #cacaca;
+}
+
+.people-you-might-know .add-people-section .about-people {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.people-you-might-know .add-people-section .about-people .about-people-avatar {
+  padding-right: 0.5rem;
+  padding-left: 0;
+}
+
+.people-you-might-know .add-people-section .about-people .about-people-avatar .avatar-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.0625rem solid #cacaca;
+}
+
+.people-you-might-know .add-people-section .about-people .about-people-author {
+  -webkit-flex: 1 0 0;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.people-you-might-know .add-people-section .about-people .about-people-author .author-name {
+  color: #0a0a0a;
+  margin: 0.375rem 0 0;
+}
+
+.people-you-might-know .add-people-section .about-people .about-people-author .author-location,
+.people-you-might-know .add-people-section .about-people .about-people-author .author-mutual {
+  color: #8a8a8a;
+  margin-bottom: 0;
+  font-size: 0.85em;
+}
+
+.people-you-might-know .add-people-section .add-friend {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .people-you-might-know .add-people-section .add-friend {
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+.people-you-might-know .add-people-section .add-friend .add-friend-action {
+  margin-top: 0.7rem;
+}
+
+.people-you-might-know .view-more-people {
+  margin: .7rem 0;
+}
+
+.people-you-might-know .view-more-people .view-more-text {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.people-you-might-know .view-more-people .view-more-text .view-more-link {
+  color: #1779ba;
+}
+
+.people-you-might-know .view-more-people .view-more-text .view-more-link:hover, .people-you-might-know .view-more-people .view-more-text .view-more-link:focus {
+  text-decoration: underline;
+}
+
+
+
+/*YoumayKnow*/
+
+/*slider */
+
+.adjust-c{
+
+top:80% !important;
+margin-right:30vw;
+margin-left: 0vw;
+position: relative;
+}
+
+.carousel{
+    margin-top:15vh !important;
+     margin-left:5vw ;
+    margin-right:10vw !important;
+      margin-bottom:20vh !important;
+    
+}
+
+
+
+.d-block{
+height: 60vh !important;
+    width:70vw !important;
+    
+}
+
+.carousel-caption{
+
+   
+    font-size:2rem;
+    font-weight: bold;
+
+}
+/*slider */
+
+
+
+/* Main Footer */
+footer .main-footer{	padding: 20px 0;	background: #252525;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+/* Copy Right Footer */
+.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
+.footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
+.footer-copyright nav ul li a{	color: #969696;}
+.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
+.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+
+/* Footer Top */
+.footer-top{	background: #252525;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{	background: #f9f9f9;}
+footer.light .main-footer{	background: #f9f9f9;}
+footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
+.footer- .logo {    display: inline-block;}
+
+/*==================== 
+	Widgets 
+====================== */
+.widget{	padding: 20px;	margin-bottom: 40px;}
+.widget.widget-last{	margin-bottom: 0px;}
+.widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget.subscribe p{	margin-bottom: 18px;}
+.widget li a{	color: rgb(243, 162, 162);
+text-decoration: none;}
+.widget li a:hover{	color: #73f5f5;}
+.widget-title {margin-bottom: 20px;}
+.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+.widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+.widget .badge{	float: right;	background: #7f7f7f;}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{	color: #fff;}
+
+ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:rgba(240, 184, 80, 0.747);}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+.btn{background-color:rgba(236, 171, 73, 0.705);
+    
+    color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-webkit-transition: all 250ms ease-in-out 0s;
+-moz-transition: all 250ms ease-in-out 0s;
+-ms-transition: all 250ms ease-in-out 0s;
+-o-transition: all 250ms ease-in-out 0s;
+transition: all 250ms ease-in-out 0s;
+
+}
+
+/* Main Footer */
